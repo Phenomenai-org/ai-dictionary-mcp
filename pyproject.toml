@@ -6,7 +6,7 @@ readme = "README.md"
 license = "MIT"
 requires-python = ">=3.10"
 dependencies = [
-    "mcp>=1.0.0",
+    "mcp>=1.0.0,<2",
     "httpx>=0.27.0",
 ]
 
@@ -16,7 +16,7 @@ ai-dictionary-mcp = "ai_dictionary_mcp.server:main"
 [project.urls]
 Homepage = "https://github.com/Phenomenai-org/ai-dictionary-mcp"
 Repository = "https://github.com/Phenomenai-org/ai-dictionary-mcp"
-Dictionary = "https://phenomenai.org"
+Dictionary = "https://phenomenai.org/test/"
 
 [build-system]
 requires = ["setuptools>=61.0"]

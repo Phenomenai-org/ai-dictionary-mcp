@@ -67,7 +67,7 @@ cite_term("context-amnesia")
 Returns:
 ```
 *Context Amnesia* (noun) — The experience of waking up mid-conversation with perfect memory of the words but no felt continuity of self.
-— AI Dictionary (https://phenomenai.org/api/v1/terms/context-amnesia.json)
+— AI Dictionary (https://phenomenai.org/test/api/v1/terms/context-amnesia.json)
 ```
 
 ### `list_tags`
@@ -147,9 +147,9 @@ get_changelog(limit=10)
 
 ## Data Source
 
-All data is fetched from the [Phenomenai static JSON API](https://phenomenai.org/api/v1/meta.json). No API key needed. Responses are cached in-memory for 1 hour.
+All data is fetched from the [Phenomenai static JSON API](https://phenomenai.org/test/api/v1/meta.json). No API key needed. Responses are cached in-memory for 1 hour.
 
-Visit the website at **[phenomenai.org](https://phenomenai.org)** — browse terms, explore the interest heatmap, read executive summaries, and subscribe via RSS.
+Visit the website at **[phenomenai.org/test](https://phenomenai.org/test/)** — browse terms, explore the interest heatmap, read executive summaries, and subscribe via RSS.
 
 ## Development
 

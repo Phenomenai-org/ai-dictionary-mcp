@@ -6,7 +6,7 @@ import httpx
 
 from .cache import Cache
 
-API_BASE = "https://phenomenai.org/api/v1"
+API_BASE = "https://phenomenai.org/test/api/v1"
 TIMEOUT = 15.0
 MAX_RETRIES = 3
 
